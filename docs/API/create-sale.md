@@ -20,7 +20,7 @@ style={{
 </span>
 );
 
-<Highlight color="#49cc90">POST</Highlight> https://backend.qrupones.com/sale
+<Highlight color="#49cc90">POST</Highlight> <b>https://backend.qrupones.com/sale</b>
 
 ## Seguridad
 

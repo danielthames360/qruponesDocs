@@ -14,12 +14,12 @@ La integración con la API Qrupones es un proceso sencillo que te permitirá acc
 
 - **Client Secret**: Este es un secreto compartido entre tu aplicación y la API Qrupones para garantizar la seguridad de las comunicaciones.
 
-- **Usuario y Password**: Estas credenciales son específicas de tu empresa y se utilizan para identificar tu aplicación ante la API.
+- **User  y Password**: Estas credenciales son específicas de tu empresa y se utilizan para identificar tu aplicación ante la API.
 
 :::caution Atención
 
-1. Debes obtener las credenciales para poder realizar la integración.
-2. La empresa cliente debe proporcionarte esta información.
+1. La empresa cliente debe proporcionarte esta información.
+2. Debes obtener las credenciales para poder realizar la integración.
 
 :::
 

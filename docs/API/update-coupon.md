@@ -20,7 +20,7 @@ style={{
 </span>
 );
 
-<Highlight color="#fca131">PUT</Highlight> https://backend.qrupones.com/coupon/[CuponID]
+<Highlight color="#fca131">PUT</Highlight> <b>https://backend.qrupones.com/coupon/[CuponID]</b>
 
 ## Seguridad
 

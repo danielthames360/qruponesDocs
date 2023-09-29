@@ -20,7 +20,7 @@ style={{
 </span>
 );
 
-<Highlight color="#61b0fd">GET</Highlight> https://backend.qrupones.com/brand
+<Highlight color="#61b0fd">GET</Highlight> <b>https://backend.qrupones.com/brand</b>
 
 ## Seguridad
 
