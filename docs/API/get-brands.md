@@ -1,7 +1,7 @@
 ---
 id: get-brands
-title: Obtener Marcas
-sidebar_label: Obtener Marcas
+title: Obtener Categorías
+sidebar_label: Obtener Categorías
 sidebar_position: 1
 ---
 
@@ -39,10 +39,10 @@ No parameters
 
 ## Respuesta
 
-| Code | Description                 |
-| ---- | --------------------------- |
-| 200  | Retorna una lista de Marcas |
-| 401  | Unauthorized                |
+| Code | Description                     |
+| ---- | ------------------------------- |
+| 200  | Retorna una lista de Categorías |
+| 401  | Unauthorized                    |
 
 ## Uso 📝
 
