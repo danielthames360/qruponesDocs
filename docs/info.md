@@ -4,7 +4,7 @@ title: Información
 sidebar_label: Información
 ---
 
-## Coordinación de categorías
+## Parametrización de categorías
 
 Uno de los aspectos fundamentales de tu empresa es la capacidad de trabajar con diversas categorías. La API ofrece un punto de entrada para obtener información sobre estas categorías y parametrizarlas en tu sistema. Esto garantiza que tu empresa pueda personalizarse de acuerdo con las marcas,tipos de pago u otro dato.
 
