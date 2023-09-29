@@ -230,7 +230,7 @@ except requests.exceptions.RequestException as e:
 
 ```json
 {
-    "data": "No hay resultados"
+  "data": []
 }
 ```
 
