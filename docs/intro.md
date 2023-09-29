@@ -2,46 +2,27 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción a la API Qrupones
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bienvenido a la documentación oficial de la API Qrupones. Esta API es una poderosa herramienta que te permite acceder a datos, realizar operaciones e interactuar con sistemas de manera eficiente y sencilla.
 
-## Getting Started
+Esta documentación está diseñada para proporcionarte una guía completa sobre cómo utilizar la API Qrupones, desde la autenticación inicial hasta la implementación de llamadas de API y la gestión de respuestas. Ya seas un desarrollador experimentado o estés dando tus primeros pasos en el mundo de las APIs, encontrarás aquí la información que necesitas para integrar Qrupones en tu aplicación o sistema.
 
-Get started by **creating a new site**.
+## ¿Cómo me integro con Qrupones?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+La integración con la API Qrupones es un proceso sencillo que te permitirá acceder a todas las funcionalidades y datos que ofrece nuestra plataforma. Antes de comenzar, asegúrate de contar con las credenciales necesarias para la autenticación. Estas credenciales incluyen:
 
-### What you'll need
+- **Client Secret**: Este es un secreto compartido entre tu aplicación y la API Qrupones para garantizar la seguridad de las comunicaciones.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **Usuario y Password**: Estas credenciales son específicas de tu empresa y se utilizan para identificar tu aplicación ante la API.
 
-## Generate a new site
+:::caution Atención
 
-Generate a new Docusaurus site using the **classic template**.
+1. Debes obtener las credenciales para poder realizar la integración.
+2. La empresa cliente debe proporcionarte esta información.
 
-The classic template will automatically be added to your project after you run the command:
+:::
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Comenzando
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Antes de empezar a explorar la API Qrupones, te recomendamos revisar la sección de autenticación para obtener tus credenciales de acceso y asegurarte de estar listo para realizar llamadas de API.

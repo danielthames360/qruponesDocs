@@ -1,0 +1,8 @@
+{
+  "label": "API",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "¡Empecemos a explorar los ednpoints que nuestra API!"
+  }
+}
