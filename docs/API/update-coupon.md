@@ -1,7 +1,7 @@
 ---
 id: update-coupon
-title: Actualizar el cupón
-sidebar_label: Actualizar el cupón
+title: Canjear el cupón
+sidebar_label: Canjear el cupón
 sidebar_position: 4
 ---
 
@@ -21,6 +21,15 @@ style={{
 );
 
 <Highlight color="#fca131">PUT</Highlight> <b>https://backend.qrupones.com/coupon/[CuponID]</b>
+
+###
+
+:::info
+
+<b>Es importante posterior al canje del cupón, no olvidarse de realizar la Recompra (Crear la venta).
+Es decir: El cupón que estoy canejando debe ir acompañado de la nueva venta que hace referencia al canje del cupón.</b>
+
+:::
 
 ## Seguridad
 
@@ -64,6 +73,32 @@ https://backend.qrupones.com/coupon/1292
 | 200  | Retorna los datos actualizados del cupón     |
 | 400  | Retorna los posibles errores de la solicitud |
 | 401  | Unauthorized                                 |
+
+### Tipos de Descuentos
+
+:::info
+
+Estos son los tipos de descuentos que utilizamos
+
+:::
+
+```javascript
+
+export enum TipoCampanasEnum {
+    DescuentoPorcentual = 1,
+    MontoFijo = 2,
+    Items = 3,
+    Sellos = 4
+}
+
+export enum TipoCampanasNames {
+    DescuentoPorcentual = 'DescuentoPorcentual',
+    MontoFijo = 'MontoFijo',
+    Items = 'Items',
+    Sellos = 'Sellos'
+}
+
+```
 
 ## Uso 📝
 
@@ -294,7 +329,10 @@ except requests.exceptions.RequestException as e:
     "FechaCanje": "2023-12-31T18:04:34.139Z",
     "CantidadCanjes": 3,
     "CanjesMaximos": 5,
-    "EstadoCupon": "Usado"
+    "EstadoCupon": "Usado",
+    "TipoCampanaID": 1,
+    "TipoCampanaDetalle": "20",
+    "TipoCampanaName": "DescuentoPorcentual"
   }
 }
 ```

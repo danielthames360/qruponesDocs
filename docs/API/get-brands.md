@@ -22,6 +22,14 @@ style={{
 
 <Highlight color="#61b0fd">GET</Highlight> <b>https://backend.qrupones.com/brand</b>
 
+###
+
+:::info
+
+<b>No olvides parametrizar tus Categorías con tu base de datos, para evitar realizar esta llamada multiples veces.</b>
+
+:::
+
 ## Seguridad
 
 Esta api utiliza clientSecret, user y password como método de autenticación.

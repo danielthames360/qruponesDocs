@@ -14,7 +14,7 @@ La integración con la API Qrupones es un proceso sencillo que te permitirá acc
 
 - **Client Secret**: Este es un secreto compartido entre tu aplicación y la API Qrupones para garantizar la seguridad de las comunicaciones.
 
-- **User  y Password**: Estas credenciales son específicas de tu empresa y se utilizan para identificar tu aplicación ante la API.
+- **User y Password**: Estas credenciales son específicas de tu empresa y se utilizan para identificar tu aplicación ante la API.
 
 :::caution Atención
 
@@ -23,6 +23,20 @@ La integración con la API Qrupones es un proceso sencillo que te permitirá acc
 
 :::
 
+## ¿Qué hago con los datos obtenidos de Secret y User?
+
+No olvides almacenar en base de datos o en variables de entorno estos datos:
+
+- **Client Secret**
+- **User**
+- **Password**
+
+Cada sucursal debera tener almacenado la SucursalID previamente parametrizada y enviada por el equipo de Qrupones.
+
+- **SucursalID**
+
 ## Comenzando
 
-Antes de empezar a explorar la API Qrupones, te recomendamos revisar la sección de autenticación para obtener tus credenciales de acceso y asegurarte de estar listo para realizar llamadas de API.
+Puedes empezar a probar la integracion a traves del siguiente enlace -> [Colección de postman](https://www.postman.com/warped-resonance-988116/workspace/qrupones/collection/1682158-89ae25c8-8011-4ee4-b1c3-94cda3164325?action=share&creator=1682158)
+
+Antes de empezar a explorar la API Qrupones, te recomendamos tener listas tus credenciales de acceso y asegurarte de estar listo para realizar llamadas de API.

@@ -35,17 +35,17 @@ Consulta cómo obtener las [Credenciales](/docs/intro#cómo-me-integro-con-qrupo
 
 ## Parámetros de solicitud
 
-| Nombre   | Descripción       | Requerido                                        | Tipo   |
-| -------- | ----------------- | ------------------------------------------------ | ------ |
-| code     | Código del cupón  | <Highlight color="#f77170">Requerido</Highlight> | string |
-| branchId | ID de la Sucursal | <Highlight color="#f77170">Requerido</Highlight> | number |
+| Nombre     | Descripción       | Requerido                                        | Tipo   |
+| ---------- | ----------------- | ------------------------------------------------ | ------ |
+| Codigo     | Código del cupón  | <Highlight color="#f77170">Requerido</Highlight> | string |
+| SucursalID | ID de la Sucursal | <Highlight color="#f77170">Requerido</Highlight> | number |
 
 ### Ejemplo de solicitud
 
 ```json
 {
-  "code": "WNDDJ",
-  "branchId": 81823
+  "Codigo": "WNDDJ",
+  "SucursalID": 81823
 }
 ```
 
@@ -96,8 +96,8 @@ const requestOptions = {
   method: 'POST',
   headers: headers,
   body: JSON.stringify({
-    code: 'yourCouponCode',
-    branchId: 123
+    Codigo: 'yourCouponCode',
+    SucursalID: 123
   }),
   redirect: 'follow'
 }
@@ -132,8 +132,8 @@ class Program
 
         var data = new
         {
-            code = "yourCouponCode",
-            branchId = 123,
+            Codigo = "yourCouponCode",
+            SucursalID = 123,
         };
 
         using var client = new HttpClient();
@@ -173,8 +173,8 @@ $headers = [
 ];
 
 $data = [
-    'code' => 'yourCouponCode',
-    'branchId' => 123,
+    'Codigo' => 'yourCouponCode',
+    'SucursalID' => 123,
 ];
 
 $curl = curl_init();
@@ -252,15 +252,15 @@ public class Main {
 }
 
 class SolicitudRequest {
-    String code;
-    int branchId;
+    String Codigo;
+    int SucursalID;
 
     public SolicitudRequest(
-        String code,
-        int branchId
+        String Codigo,
+        int SucursalID
     ) {
-        this.code = code;
-        this.branchId = branchId;
+        this.Codigo = Codigo;
+        this.SucursalID = SucursalID;
     }
 }
 ```
@@ -279,8 +279,8 @@ headers = {
 }
 
 data = {
-    'code': 'yourCouponCode',
-    'branchId': 123,
+    'Codigo': 'yourCouponCode',
+    'SucursalID': 123,
 }
 
 url = 'https://backend.qrupones.com/coupon/checkCoupon'
@@ -313,7 +313,9 @@ except requests.exceptions.RequestException as e:
     "Celular": "123456789",
     "CodigoPais": 591,
     "Nit": "1234567",
-    "EstadoCupon": "Usado"
+    "EstadoCupon": "Usado",
+    "TipoCampana": "Descuento porcentual",
+    "TipoCampanaDetalle": 20
   }
 }
 ```
